@@ -12,6 +12,5 @@ int countXX(String str) {
             counter++;
         }
     }
-
     return counter;
 }
