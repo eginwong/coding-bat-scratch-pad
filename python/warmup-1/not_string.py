@@ -1,0 +1,6 @@
+# Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged. Note: use .equals() to compare 2 strings.
+
+def not_string(str):
+  if str[:3] == 'not':
+    return str
+  return 'not ' + str
